@@ -15,8 +15,6 @@ type Story = StoryObj<typeof Form>;
 
 export const Default: Story = {};
 
-const a = 1;
-
 export const Testing: Story = {
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
