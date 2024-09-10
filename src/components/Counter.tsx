@@ -21,7 +21,7 @@ const Counter: React.FC<CounterProps> = ({ initialCount = 0 }) => {
 
   return (
     <div>
-      <h2>Count: {count}</h2>
+      <h2 style={{ color: "red", fontSize: "20px" }}>Count: {count}</h2>
       <button onClick={decrement}>ー</button>
       <button onClick={increment}>＋</button>
     </div>
